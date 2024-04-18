@@ -1,0 +1,36 @@
+*{
+    background-color: #323232;
+}
+
+.mainDigitalClock{
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 400;
+    flex-direction: column;
+}
+
+.clock{
+    display: flex;
+    flex-direction: row;
+    font-size: 5rem;
+    position: fixed;
+    inset: 0px;
+    width: 25rem;
+    height: 13rem;
+    max-width: 100vw;
+    max-height: 100dvh;
+    margin: auto;
+}
+
+.date{
+    display: flex;
+    flex-direction: row;
+    font-size: 3rem;
+    position: fixed;
+    inset: 0px;
+    width: 25rem;
+    height: 2rem;
+    max-width: 100vw;
+    max-height: 100dvh;
+    margin: auto;
+}
