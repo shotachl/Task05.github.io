@@ -33,3 +33,21 @@ function updateTime() {
 }
 setInterval(updateTime, 1000);
 
+function getRandomColor(){
+    var color = '#'
+    var letters = '0123456789ABCDEF'
+    for(var i=0; i<6 ;i++){
+        color += letters[Math.floor(Math.random() * 16)]
+    }
+    return color;
+}
+
+function changeColor(){
+    randomColor = getRandomColor();
+    var textElement = document.getElementById('mainDigitalClock');
+    textElement.style.color = randomColor;
+}
+
+changeColor();
+
+setInterval(changeColor, 10000);

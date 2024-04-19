@@ -2,7 +2,7 @@
     background-color: #323232;
 }
 
-.mainDigitalClock{
+#mainDigitalClock{
     color: white;
     font-family:'Courier New', Courier, monospace;
     font-weight: 400;
